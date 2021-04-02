@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegActivity"
+    android:background="@color/localP">
+
+    <LinearLayout
+        android:id="@+id/layoutR"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WorldCinema"
+            android:layout_gravity="center"
+            android:textColor="@color/redall"
+            android:textStyle="bold"
+            android:textSize="35dp"/>
+
+        <EditText
+            android:id="@+id/Name"
+            android:background="@drawable/fild_bg"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/white"
+            android:padding="5dp"
+            android:hint="Name"
+            android:textColorHint="@color/hint"/>
+
+        <EditText
+            android:id="@+id/Lname"
+            android:background="@drawable/fild_bg"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/white"
+            android:layout_marginEnd="10dp"
+            android:padding="5dp"
+            android:hint="Last Name"
+            android:textColorHint="@color/hint"/>
+
+        <EditText
+            android:id="@+id/emailR"
+            android:background="@drawable/fild_bg"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/white"
+            android:layout_marginEnd="10dp"
+            android:padding="5dp"
+            android:hint="Email"
+            android:textColorHint="@color/hint"/>
+
+        <EditText
+            android:id="@+id/pass"
+            android:background="@drawable/fild_bg"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:textColor="@color/white"
+            android:padding="5dp"
+            android:hint="Password"
+            android:textColorHint="@color/hint"/>
+
+        <EditText
+            android:id="@+id/passr"
+            android:background="@drawable/fild_bg"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:padding="5dp"
+            android:hint="Repeat Password"
+            android:textColorHint="@color/hint"/>
+
+        <Button
+            android:id="@+id/buttonRR"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="@color/redall"
+            android:textAllCaps="false"
+            android:layout_marginTop="50dp"
+            android:text="Register" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonER"
+            android:text="I have Account"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:textAllCaps="false"
+            android:textColor="@color/redall"
+            android:background="@drawable/fild_bg"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="50dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
